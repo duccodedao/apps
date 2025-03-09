@@ -38,7 +38,7 @@ function App() {
                 ? network === CHAIN.MAINNET
                   ? "mainnet"
                   : "testnet"
-                : "N/A"}
+                : "N/Aa"}
             </Button>
           </FlexBoxRow>
           <TransferTon />
