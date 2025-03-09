@@ -7,7 +7,7 @@ import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
 export function TransferTon() {
   const { sender, connected } = useTonConnect();
 
-  const [tonAmount, setTonAmount] = useState("5");
+  const [tonAmount, setTonAmount] = useState("0.1");
   const [tonRecipient, setTonRecipient] = useState(
     "EQDu8vyZSZbAYvRRQ_jW4_0EiBGibAGq72wSZjYWRmNAGkmG"
   );
