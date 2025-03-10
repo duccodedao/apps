@@ -22,7 +22,7 @@ jobs:
 
       - name: Run setup script
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.6789490938:AAFV99ud9KhAOjgaKFaKWh410m3JFQu52Hc }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.6789490938:AAFkhwkeeqrsyBTzE0I6uKAiKCSz0qjMWWs}}
           GITHUB_USERNAME: ${{ secrets. }}
           GITHUB_REPO: ${{ secrets.telegram-bot-deploy }}
         run: node setup.js
