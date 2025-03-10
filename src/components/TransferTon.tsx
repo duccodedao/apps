@@ -7,17 +7,17 @@ import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
 export function TransferTon() {
   const { sender, connected } = useTonConnect();
 
-  const [tonAmount, setTonAmount] = useState("0.1");
+  const [tonAmount, setTonAmount] = useState("5");
   const [tonRecipient, setTonRecipient] = useState(
-    "EQDu8vyZSZbAYvRRQ_jW4_0EiBGibAGq72wSZjYWRmNAGkmG"
+    "UQBUEfSGoxUVurpogEsCpMo7hsFnksmAgev0MQQbXkDWfSmR"
   );
 
   return (
     <Card>
       <FlexBoxCol>
-        <h3>Transfer TON 3</h3>
+        <h3>Transfer TON</h3>
         <FlexBoxRow>
-          <label>Amount 3</label>
+          <label>Amount </label>
           <Input
             style={{ marginRight: 8 }}
             type="number"
@@ -43,7 +43,7 @@ export function TransferTon() {
             });
           }}
         >
-          Transfer 4
+          Transfer
         </Button>
       </FlexBoxCol>
     </Card>
